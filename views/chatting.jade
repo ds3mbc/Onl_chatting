@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h3 Chatting
+    .row
+        .col-sm-offset-3.col-sm-6
+            #logs.img-rounded
+                ul#lists
+                span(name='bottom')
+            .input-group
+                input(type='text')#message.form-control
+                span.input-group-btn
+                    button(type='button', disabled='true')#submit.btn.btn-default Send

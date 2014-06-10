@@ -1,0 +1,20 @@
+doctype html
+html
+    head
+        title
+        link(rel='stylesheet', href='/styles/style.css')
+        link(rel='stylesheet', href='/styles/bootstrap.min.css')
+        link(rel='stylesheet', href='/styles/jumbotron-narrow.css')
+        script(src='//code.jquery.com/jquery-1.11.0.min.js')
+        script(src='/scripts/bootstrap.min.js')
+        script(src='/scripts/script.js')
+        script(src='/socket.io/socket.io.js')
+    body
+        .container
+            .header
+                ul.nav.nav-pills.pull-right
+                    li
+                        a(href='/') Home
+                h3.text-muted Chat
+            block content
+            .footer @ BigBrother 2014

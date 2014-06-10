@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    .jumbotron
+        h1 Start your chatting!
+        p.lead 
+        p
+            .btn.btn-lg.btn-success#start Start Onl
+            //a(href='/newroom').btn.btn-lg.btn-success Join Now!
+        #pop
+            h5 Enter your name
+            input(type='text')#name.form-control
+            .btns
+                button(type='button').btn.btn-default.btn-xs#enter Enter
+                .col-xs-1
+                button(type='button').btn.btn-default.btn-xs#exit Exit
