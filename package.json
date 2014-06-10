@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "Onl",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,5 +8,22 @@
   "dependencies": {
     "express": "3.4.7",
     "jade": "*"
-  }
+  },
+  "description": "Chatting app from Node",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ds3mbc/Onl_chatting.git"
+  },
+  "keywords": [
+    "chatting",
+    "exmple"
+  ],
+  "author": "ds3mbc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ds3mbc/Onl_chatting/issues"
+  },
+  "homepage": "https://github.com/ds3mbc/Onl_chatting"
 }
